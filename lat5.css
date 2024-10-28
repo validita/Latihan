@@ -1,0 +1,159 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Arial;
+	background-color: lavenderblush;
+}
+
+nav {
+	background: #d9b3ff;
+	height: 88px;
+	width: 100%;
+}
+
+label.logo{
+	color: white;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+}
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+ 
+ nav ul li{
+ 	display: inline-block;
+ 	line-height: 80px;
+ 	margin: 0 5px;
+ }
+
+ nav ul li a{
+ 	color: white;
+ 	font-size: 17px;
+ 	padding: 7px 13px;
+ 	border-radius: 3px;
+ 	text-transform: uppercase;
+ }
+
+ a.active,a:hover{
+ 	background:  #bf80ff;
+ 	transition: .5s;
+ }
+
+ .checkbtn{
+ 	font-size: 30px;
+ 	color: white;
+ 	float: right;
+ 	line-height: 80px;
+ 	margin-right: 40px;
+ 	cursor: pointer;
+ }
+
+ #marquee{
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+ }
+
+ .footer{
+ 	background-color: #d9b3ff;
+ }
+
+ .footercontainer{
+ 	width: 100%;
+ 	padding: 70px 30px 20px;
+ }
+
+ .socialIcons{
+ 	display: flex;
+ 	justify-content: center;
+ }
+
+ .socialIcons a{
+ 	text-decoration: none;
+ 	padding: 10px;
+ 	background-color:#d9b3fF;
+ 	margin: 10px;
+ 	border-radius: 50%;
+ }
+
+ .socialIcons a i{
+ 	font-size: 2em;
+ 	color: ;#d9b3ff
+ 	opacity: 0,9;
+ }
+
+ .socialIcons a:hover{
+ 	background-color: hotpink;
+ 	transition: 0.5s;
+ }
+
+ .socialIcons a:hover i{
+ 	color: white;
+ 	transition: 0.5s;
+ }
+
+ .footerNav{
+ 	margin: 30px 0;
+ }
+
+ .footerNav ul{
+ 	display: flex;
+ 	justify-content: center;
+ 	list-style-type: none;
+ }
+
+ .footerNav ul li a{
+ 	color: purple;
+ 	margin: 20px;
+ 	text-decoration: none;
+ 	font-size: 1.3em;
+ 	opacity: 3.0;
+ 	transition: 0.5s;
+ 	background-color: lavender;
+ }
+
+ .footerNav ul li a:hover{
+ 	opacity: 1;
+ }
+
+ .footerBottom{
+ 	background-color: #d9b3ff;
+ 	padding: 20px;
+ 	text-align: center;
+ }
+
+ .footerBottom p{
+ 	color: purple;
+ }
+
+ .designer{
+ 	opacity: 0.7;
+ 	text-transform: uppercase;
+ 	letter-spacing: 1px;
+ 	font-weight: 400;
+ 	margin: 0px 5px;
+ }
+
+ @media (max-widht: 700px){
+ 	.footerNav ul{
+ 		flex-direction: column;
+ 	}
+ 	.footerNav ul li{
+ 		width: 100px;
+ 		text-align: center;
+ 		margin: 10px;
+ 	}
+ 	.socialIcons a{
+ 		padding: 8px;
+ 		margin: <0xa0>4px;
+ 		<0xa0><0xa0><0xa0<0xa0>
+ 	}
+ }
